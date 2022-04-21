@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+
+    "name": "Remove Story",
+    "version": "1.0.0",
+    "description": "Removing Whatsapp Stories",
+    "icon": {
+        "16": "1.png",
+        "48": "1.png",
+        "128": "1.png"
+    },
+    "content_scripts": [{
+        "js": ["content.js"],
+        "matches": ["https://web.whatsapp.com/*"]
+    }]
+
+}
